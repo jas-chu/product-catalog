@@ -1,0 +1,14 @@
+.Select-title {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 500;
+  color:grey
+}
+
+.Select {
+  padding: 5px;
+  margin-top: 2px;
+  color: grey;
+  border-radius: 5px;
+}
