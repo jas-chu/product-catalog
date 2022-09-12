@@ -1,4 +1,10 @@
 .Checkbox-title {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  margin: 0 0 0 7px;
+  color: #212026;
 }
