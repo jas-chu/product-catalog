@@ -81,3 +81,8 @@
 .Store-links {
   margin-top: 30px;
 }
+
+.Select-store {
+  display: flex;
+  flex-direction: row;
+}

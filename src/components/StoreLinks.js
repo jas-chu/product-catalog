@@ -1,4 +1,7 @@
 import React from 'react';
+import Checkbox from './checkbox/Index';
+import Input from './input/Index';
+import Select from './select/Index';
 import './tabs/BasicDetailsTab.css';
 
 function StoreLinks() {
@@ -14,8 +17,11 @@ function StoreLinks() {
 
 function SelectStore() {
   return (
-    <div className="Section">
-      <p>Todo en row: select, input, button, checkbox</p>
+    <div className="Section Select-store">
+      <Select title="Store 1" options={["Select Store"]} />
+      <Input title="URL" placeholder="Enter URL" />
+      <p>Go</p>
+      <Checkbox name="Active" />
     </div>
   );
 }
