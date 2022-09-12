@@ -8,27 +8,76 @@
   font-size: calc(10px + 2vmin);
   font-weight: 300;
   margin-bottom: 10px;
+  color: #040f3d;
 }
 
 .Subtitle {
   display: flex;
   flex-direction: column;
-  font-size: 18px;
-  font-weight: 200;
+  font-size: 16px;
+  font-weight: normal;
+  color: #212026;
   margin: 0px;
 }
 
 .Section-title {
   display: flex;
   flex-direction: column;
-  font-size: 20px;
-  font-weight: 400;
-  color:coral;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #dea14b;
   margin: 0px;
 }
 
 .Section {
-  background-color:lightpink;
-  margin: 20px;
+  background-color:#f8f8fa;
+  margin: 1px;
   padding: 15px;
+}
+
+.Brand-model {
+  display: flex;
+  flex-direction: row;
+}
+
+.Expert {
+  display: flex;
+  flex-direction: row;
+}
+
+.Testing-notes {
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  margin: 3px 0 0;
+  color: #9f9cac;
+}
+
+.Category {
+  display: flex;
+  flex-direction: row;
+}
+
+.Fill {
+  flex-grow: 80;
+}
+
+.Review-text {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #212026;
+  margin: 9px 0 0;
+}
+
+.Store-links {
+  margin-top: 30px;
 }
