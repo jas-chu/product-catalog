@@ -1,0 +1,35 @@
+.Action-Button {
+
+}
+
+.Action-button-text-secondary {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4b65bf;
+  background-color: white;
+  padding: 7px 22px 8px 21px;
+  border-radius: 5px;
+  border: solid 2px #4b65bf;
+}
+
+.Action-button-text-primary {
+  background-color: #4b65bf;
+  color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  padding: 7px 22px 8px 21px;
+  border-radius: 5px;
+  border: solid 2px #4b65bf;
+}

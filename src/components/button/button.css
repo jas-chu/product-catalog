@@ -1,0 +1,19 @@
+.Button{
+  /* display: flex; */
+}
+
+.Button-text {
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+  background-color: #cccccc;
+  margin: 0 0 0 10px;
+  padding: 7px 15px 8px;
+  border-radius: 5px;
+  border-color: white;
+}

@@ -1,9 +1,9 @@
 import React from 'react';
 import './tabs/BasicDetailsTab.css';
 import './input/Input.css';
-import Input from './input/Index';
-import Checkbox from './checkbox/Index';
-import Select from './select/Index';
+import Input from './input';
+import Checkbox from './checkbox';
+import Select from './select';
 
 function ProductInfo() {
   return (
