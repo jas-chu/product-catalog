@@ -1,0 +1,26 @@
+.Button-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.Images-section {
+  background-color:#f8f8fa;
+  margin: 1px;
+  padding: 15px;
+}
+
+.Edit-images{
+  display: flex;
+  flex-direction: row;
+}
+
+.Drag-and-drop-text {
+  margin: 0 31px 2px 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  color: #212026;
+}
