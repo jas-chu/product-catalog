@@ -8,6 +8,7 @@ import 'react-tabs/style/react-tabs.css';
 function App() {
   return (
     <div className="App">
+      <p className="Main-title">Product Details</p>
       <Tabs id="controlled-tabs">
         <TabList>
           <Tab>Basic Details</Tab>
