@@ -1,13 +1,19 @@
 .App {
-  margin-left: 20px;
+  margin-left: 30px;
   font-family: Montserrat;
 }
 
 .Main-title {
   display: flex;
   flex-direction: column;
-  font-size: calc(10px + 2vmin);
-  font-weight: 500;
+  margin: 6px 30px 24px 0;
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #040f3d;
 }
 
 @font-face {
@@ -31,6 +37,7 @@
   border-right: 1px solid #afacba;
   border-bottom: 1px solid #afacba;
   border-radius: 0px 0px 5px 5px;
+  background-color: white;
   padding: 10px;
 }
 
@@ -46,11 +53,16 @@
   letter-spacing: normal;
 }
 
+.react-tabs__tab--selected {
+  color: #dea14b !important;
+  font-weight: 600;
+}
+
 .react-tabs__tab-list {
   margin-bottom: 0px !important;
-  border-bottom: 1px solid #afacba !important;
+  border-bottom: 1px solid #afacba;
 }
 
 .react-tabs {
-  margin: 10px;
+  margin-right: 30px;
 }

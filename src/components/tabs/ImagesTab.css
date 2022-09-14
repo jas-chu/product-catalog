@@ -1,6 +1,7 @@
 .Button-section {
   display: flex;
   flex-direction: row;
+  margin-top: 50px;
 }
 
 .Images-section {
@@ -14,6 +15,13 @@
   flex-direction: row;
 }
 
+.Images-container {
+  margin-left: 20px;
+  margin-top: 21px;
+  margin-right: 20px;
+  margin-bottom: 26px;
+}
+
 .Drag-and-drop-text {
   margin: 0 31px 2px 0;
   font-size: 14px;
@@ -23,4 +31,16 @@
   line-height: 1.36;
   letter-spacing: normal;
   color: #212026;
+}
+
+.Spacing {
+  margin-top: 14px !important;
+}
+
+.File-name {
+  padding: 32px;
+}
+
+.Action-button {
+  margin-left: 10px;
 }
