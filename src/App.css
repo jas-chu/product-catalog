@@ -1,38 +1,56 @@
 .App {
-  text-align: center;
+  margin-left: 20px;
+  font-family: Montserrat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Main-title {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url('./fonts/Montserrat.ttf') format('truetype');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::placeholder{
+  color: #9f9cac;
+  letter-spacing: normal;
+  margin: 0 0 0 1px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.react-tabs__tab-panel--selected {
+  border-left: 1px solid #afacba;
+  border-right: 1px solid #afacba;
+  border-bottom: 1px solid #afacba;
+  border-radius: 0px 0px 5px 5px;
+  padding: 10px;
+}
+
+.react-tabs__tab {
+  color: #9f9cac !important;
+  margin: 8px 15px 0 0;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.react-tabs__tab-list {
+  margin-bottom: 0px !important;
+  border-bottom: 1px solid #afacba !important;
+}
+
+.react-tabs {
+  margin: 10px;
 }

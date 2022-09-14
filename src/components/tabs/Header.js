@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 
-function Header({title, subtitle}) {
+function Header({ title, subtitle }) {
   return (
     <div>
       <p className="Title">{title}</p>
