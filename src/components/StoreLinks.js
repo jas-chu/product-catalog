@@ -4,14 +4,16 @@ import Input from './input';
 import Select from './select';
 import Button from './button';
 import './tabs/BasicDetailsTab.css';
+import CustomTab from './tab';
 
 function StoreLinks() {
   return (
     <div className="Section Store-links">
       <p className="Section-title">Store Links</p>
-      <p> Here goes the tabs </p>
-      <p> Select store inside the tabs</p>
-      <SelectStore />
+      <CustomTab titles={['US', 'CA', 'AU', 'GB', 'AE', 'SG']} className="Section Spacing">
+        <SelectStore />
+        <SelectStore />
+      </CustomTab>
     </div>
   );
 }
