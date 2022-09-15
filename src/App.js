@@ -5,6 +5,7 @@ import BasicDetailsTab from './components/tabs/BasicDetailsTab';
 import 'react-tabs/style/react-tabs.css';
 import CustomTab from './components/tab';
 import MatrixContent from './components/tabs/MatrixContentTab';
+import TestingNotes from './components/tabs/TestingNotesTab';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <BasicDetailsTab />
         <ImagesTab />
         <MatrixContent />
+        <TestingNotes />
       </CustomTab>
     </div>
   );
