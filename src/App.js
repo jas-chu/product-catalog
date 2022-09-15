@@ -6,6 +6,7 @@ import 'react-tabs/style/react-tabs.css';
 import CustomTab from './components/tab';
 import MatrixContent from './components/tabs/MatrixContentTab';
 import TestingNotes from './components/tabs/TestingNotesTab';
+import DeepDive from './components/tabs/DeepDiveTab';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <ImagesTab />
         <MatrixContent />
         <TestingNotes />
+        <DeepDive />
       </CustomTab>
     </div>
   );
