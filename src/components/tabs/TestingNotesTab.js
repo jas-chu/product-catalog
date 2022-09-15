@@ -7,7 +7,7 @@ import './TestingNotesTab.css';
 
 function TestingNotes() {
   return (
-    <div className='Testing-notes'>
+    <div className="Testing-notes">
       <Header
         title="Testing Notes"
         subtitle={
