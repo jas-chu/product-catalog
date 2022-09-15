@@ -1,10 +1,9 @@
 import React from 'react';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import Header from './Header';
-import 'react-tabs/style/react-tabs.css';
 import './ImagesTab.css';
 import EditImages from '../EditImages';
 import UploadImages from '../UploadImages';
+import CustomTab from '../tab';
 
 function ImagesTab() {
   return (
@@ -18,18 +17,10 @@ function ImagesTab() {
           </span>
         }
       />
-      <Tabs id="controlled-tabs" className="Section Spacing">
-        <TabList>
-          <Tab>Edit Images</Tab>
-          <Tab>Upload Images</Tab>
-        </TabList>
-        <TabPanel>
-          <EditImages />
-        </TabPanel>
-        <TabPanel>
-          <UploadImages />
-        </TabPanel>
-      </Tabs>
+      <CustomTab titles={['Edit Images', 'Upload Images']} className="Section Spacing">
+        <EditImages />
+        <UploadImages />
+      </CustomTab>
     </div>
   );
 }
