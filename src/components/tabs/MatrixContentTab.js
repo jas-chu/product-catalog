@@ -3,7 +3,7 @@ import Input from '../input';
 import CustomTab from '../tab';
 import TextArea from '../text-area';
 import Header from './Header';
-import './MatrixContent.css';
+import './MatrixContentTab.css';
 
 function MatrixContent() {
   return (
