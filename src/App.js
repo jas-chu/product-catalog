@@ -7,6 +7,7 @@ import CustomTab from './components/tab';
 import MatrixContent from './components/tabs/MatrixContentTab';
 import TestingNotes from './components/tabs/TestingNotesTab';
 import DeepDive from './components/tabs/DeepDiveTab';
+import Specifications from './components/tabs/SpecificationsTab';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <MatrixContent />
         <TestingNotes />
         <DeepDive />
+        <Specifications />
       </CustomTab>
     </div>
   );

@@ -1,0 +1,23 @@
+.Specifications {
+  margin: 0px 20px 21px 20px;
+}
+
+.Custom-specifications {
+  background-color: white;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.Custom-title {
+  font-size: 14px;
+}
+
+.Action {
+  color: #4b65bf;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.79;
+  letter-spacing: normal;
+}
